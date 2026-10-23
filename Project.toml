@@ -2,3 +2,18 @@ name = "ForestGrowthExample"
 uuid = "608f1cee-f33e-406a-9aa5-0b5687659e3c"
 version = "0.0.1"
 authors = ["Antonello Lobianco <blackhole@lobianco.org>"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+
+[compat]
+CSV = "0.10, 1"
+DataFrames = "1"
+DocStringExtensions = "0.9, 0.10"
+HTTP = "1, 2"
+LsqFit = "0.15, 0.16"
+julia = "1.10"
